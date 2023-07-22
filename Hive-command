@@ -1,0 +1,20 @@
+-------------Hive command------------
+
+------create database---
+create database user;
+
+---show database----------
+show databased;
+
+----create table--------
+hive> create table test.emp(
+    > id int,
+    > name string,
+    > city string)
+    > row format delimited
+    > fields terminated  by ','
+    > lines terminated by '\n'
+    > stored as textfile;
+
+---------show tables------
+show tables;
